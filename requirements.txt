@@ -1,0 +1,5 @@
+huggingface_hub>=0.25
+tqdm>=4.66
+numpy>=1.26
+sentence-transformers>=3.0
+llama-cpp-python>=0.3

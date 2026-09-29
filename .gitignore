@@ -1,0 +1,28 @@
+# модели (скачиваются скриптом, в git не хранятся)
+models/
+*.gguf
+*.zip
+*.safetensors
+*.bin
+
+# python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# данные и логи
+*.db
+*.sqlite3
+.env
+
+# ide
+.vscode/
+.idea/
+.claude/
+
+# локальный дев-ноутбук для Colab, не часть репозитория
+colab_dev.ipynb
